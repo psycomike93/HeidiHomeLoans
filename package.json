@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  :"homepage": "https://psycmike93.gitub.io/HeidiHomeLoans/",
+  "homepage": "https://psycmike93.gitub.io/HeidiHomeLoans/",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
