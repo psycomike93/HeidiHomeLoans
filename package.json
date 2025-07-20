@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/psycomike93/HeidiHomeLoans/",
+  "homepage": "https://psycomike93.github.io/HeidiHomeLoans",
 
   "scripts": {
     "dev": "vite",
