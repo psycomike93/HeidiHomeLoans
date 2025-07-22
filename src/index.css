@@ -4,6 +4,15 @@ html{
     background-repeat: no-repeat;
 }
 
+.box1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding:6px;
+    margin: 15px;
+
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -67,7 +76,7 @@ h2{
 }
 html{
     background-image:url(/PLines.gif) ;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 }
