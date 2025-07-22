@@ -1,6 +1,7 @@
 html{
     background-image:url(/PLines.gif) ;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navbar{
@@ -51,7 +52,7 @@ h2{
     
   }
   h2{
-    font-size: 20px;
+    font-size: 10px;
   }
   .navlink{
     color: black;
