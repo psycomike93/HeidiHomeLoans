@@ -78,6 +78,6 @@ h2{
 html{
     background-image:url(/PLines.gif) ;
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 }
