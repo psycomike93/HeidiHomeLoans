@@ -65,4 +65,9 @@ h2{
     padding: 3px;
     background-color: gray;
 }
+html{
+    background-image:url(/PLines.gif) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 }
