@@ -50,7 +50,7 @@ export const Contact = () => {
                 name="name"
                 required
                 value={formData.name}
-                className="w-full bg-gray-400/75 border border-black rounded px-4 py-3 text-black transition focus:outline-none focus:border-black focus:bg-black/5"
+                className="w-full bg-gray-400/75 border border-black rounded shadow-xl/80 px-4 py-3 text-black transition focus:outline-none focus:border-black focus:bg-black/5"
                 placeholder="Name..."
                 onChange={(e) =>
                   setFormData({ ...formData, name: e.target.value })
@@ -65,7 +65,7 @@ export const Contact = () => {
                 name="email"
                 required
                 value={formData.email}
-                className="w-full bg-gray-400/75 border border-black rounded px-4 py-3 text-black transition focus:outline-none focus:border-black focus:bg-black/5"
+                className="w-full bg-gray-400/75 border border-black rounded shadow-xl/80 px-4 py-3 text-black transition focus:outline-none focus:border-black focus:bg-black/5"
                 placeholder="example@gmail.com"
                 onChange={(e) =>
                   setFormData({ ...formData, email: e.target.value })
@@ -80,7 +80,7 @@ export const Contact = () => {
                 required
                 rows={5}
                 value={formData.message}
-                className="w-full bg-gray-400/75 border border-black rounded px-4 py-3 text-black transition focus:outline-none focus:border-black focus:bg-black/5"
+                className="w-full bg-gray-400/75 border border-black rounded shadow-xl/80 px-4 py-3 text-black transition focus:outline-none focus:border-black focus:bg-black/5"
                 placeholder="Your Message..."
                 onChange={(e) =>
                   setFormData({ ...formData, message: e.target.value })
@@ -90,7 +90,7 @@ export const Contact = () => {
 
             <button
               type="submit"
-              className="border border-black/40 w-full bg-gray-400/75 text-black py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(159,30,46,0.4)]"
+              className="border border-black/40 w-full bg-gray-400/75 text-black shadow-xl/80 py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(159,30,46,0.4)]"
             >
               Send Message
             </button>
